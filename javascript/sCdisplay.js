@@ -1,6 +1,6 @@
 
 
-const displayData =(data) =>{
+export const displayData =(data) =>{
     console.log(data["name"])
     //for image
     const image = "data:image/png;base64," + data["image"];
@@ -18,4 +18,3 @@ const displayData =(data) =>{
     descriptionParagraph.textContent = longDescription;
 }
 
-export default displayData
