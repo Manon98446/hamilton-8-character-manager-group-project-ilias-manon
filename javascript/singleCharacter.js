@@ -1,4 +1,4 @@
-import {displayData} from "./sCdisplay";
+import {displayData} from "./sCdisplay.js";
 
 
 
