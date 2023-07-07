@@ -2,7 +2,7 @@
 //const clone = node.cloneNode(true);
 
 //document.getElementById("charactercontainer").appendChild(clone); 
-
+import '/style.css';
 
 async function test() {
     const response = await fetch("https://character-database.becode.xyz/characters");
